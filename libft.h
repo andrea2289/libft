@@ -6,7 +6,7 @@
 /*   By: asalama <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 13:11:13 by asalama           #+#    #+#             */
-/*   Updated: 2015/12/09 16:21:19 by asalama          ###   ########.fr       */
+/*   Updated: 2016/01/28 18:26:11 by asalama          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl(char const *s);
 void				ft_putendl_fd(char const *s, int fd);
 void				*ft_memalloc(size_t size);
+void				*ft_realloc(void *ptr, size_t size);
 char				*ft_strnew(size_t size);
 void				ft_strclr(char *s);
 void				ft_striter(char *s, void (*f)(char *));
